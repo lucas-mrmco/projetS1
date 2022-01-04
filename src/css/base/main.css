@@ -2,6 +2,14 @@ main {
   margin-top: 120px;
 }
 
+button {
+  -webkit-appearance: none;
+  appearance: none;
+  border: none;
+  background: none;
+  padding: 0;
+  cursor: pointer;
+}
 body{
   top: 100px;
     font-family: 'Mulish', sans-serif;

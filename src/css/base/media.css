@@ -1,0 +1,15 @@
+img {
+    max-width: 100%;
+    height: auto;
+    z-index: 2;
+
+}
+
+figure {
+    margin: 0;
+}
+
+figcaption {
+    font-size: var(--legendes);
+    color: var(--blanc);
+}

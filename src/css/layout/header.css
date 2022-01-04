@@ -1,0 +1,46 @@
+
+  .header {
+    background-color: var(--principale);
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 105px;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    z-index: 5;
+
+  }
+
+
+.button__link::before{
+  content: "➔";
+  font-size: 20px;
+  vertical-align: middle;  
+}
+
+  .header__start {
+    display: flex;
+    
+  }
+  
+  .header__end {
+    position: fixed;
+    margin-top: 0;
+    margin-right: 0px;
+    color: transparent;
+    display: flex;
+    align-items: stretch;
+  }
+    
+  
+  
+  .header__logo {
+    position: fixed;
+    display: block;
+    width: 105px;
+    height: auto;
+    margin-left: 20vw;
+    margin-top: 10px;
+    z-index: 1;
+  }
