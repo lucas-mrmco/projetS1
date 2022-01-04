@@ -12,59 +12,98 @@
     
   </head>
   <body >
-    
-    <header class = "header">
-      
-      
-      <div class="header__start"> 
-       
-       <button class="header__menu-btn menu-btn"
-                @click="menuIsOpen = !menuIsOpen"
-                :class="menuIsOpen && 'menu-btn--open'">
-          <span class="menu-btn__bar"></span>
-        </button>
-      </div>
-      <div class="header__end">
-      
-        <a class="header__logo" href="index.html">
-          <img class="header__logo" src="public/img/autres/logoxmen.webp" alt="logo X-Men">
-        </a>  
-      </div>
-      
-<!-- Menu déroulant -->
-
-      <nav class="header__menu menu" :class="menuIsOpen && 'menu--open'">
-        <div class="menu_lang">
-        
-        <ul class="menu__list list-unstyled">
-          
-            <li class="menu__item"><a class="menu__link" href="index.html">Accueil</a></li>
-            <span class="menu_line"></span>
-              <li class="menu__item"><a class="menu__link" href="blackbird.html">Le Blackbird</a></li>
-              
-              <li class="menu__item"><a class="menu__link" href="impact.html">L’impact du trafic aérien sur notre planète</a></li>
-              <li class="menu__item"><a class="menu__link" href="alternatives.html">Les alternatives </a></li>
+        <!-- Header -->
+        <header class = "header">
+            <!-- Partie gauche du header avec l'icone du menu hamburger uniquement -->
+            <div class="header__start"> 
             
-              <li class="menu__item"><a class="menu__link" href="galerie.html">Galerie</a></li>
-             
-              <li class="menu__item"><a class="menu__link" href="apropos.html">A propos</a></li>
-              
+            <button class="header__menu-btn menu-btn"
+                        @click="menuIsOpen = !menuIsOpen"
+                        :class="menuIsOpen && 'menu-btn--open'">
+                <span class="menu-btn__bar"></span>
+                </button>
+            </div>
+            <!-- Partie centrale du header avec l'icone du site uniquement -->
+            <div class="header__end">
             
-        </ul>
-      </nav>
-        
-      
-      
-        
-    </header>
+                <a class="header__logo" href="index.html">
+                <img class="header__logo" src="public/img/autres/logoxmen.webp" alt="logo X-Men">
+                </a>  
+            </div>
+            
+            <!-- Menu déroulant -->
 
-    <main>
-      
-      
-    </main>
+            <nav class="header__menu menu" :class="menuIsOpen && 'menu--open'">
+                <div class="menu_lang">
+                
+                <ul class="menu__list list-unstyled">
+                
+                    <li class="menu__item"><a class="menu__link" href="index.html">Accueil</a></li>
+                    <span class="menu_line"></span>
+                    <li class="menu__item"><a class="menu__link" href="blackbird.html">Le Blackbird</a></li>
+                    
+                    <li class="menu__item"><a class="menu__link" href="impact.html">L’impact du trafic aérien sur notre planète</a></li>
+                    <li class="menu__item"><a class="menu__link" href="alternatives.html">Les alternatives </a></li>
+                    
+                    <li class="menu__item"><a class="menu__link" href="galerie.html">Galerie</a></li>
+                    
+                    <li class="menu__item"><a class="menu__link" href="apropos.html">A propos</a></li>
+                    
+                    
+                </ul>
+            </nav>
+            
+        </header>
+
+        <main>
+            <img src="public/img/line2.webp" alt="fond avec 2 lignes">
+            <h1>Sur X-Sky, découvrez les  
+                conséquences  
+                environnementales du traﬁc  
+                aérien et apprenez à utiliser les  
+                alternatives qui s’oﬀrent à vous.</h1>
+           
+            <a href="blackbird.html">
+                <article>
+                    <img src="public/img/accueil/accueil_1.webp" alt="article blackbird">
+                    <h2>Le Blackbird, ou l’avion
+                        préféré de ton super-héros
+                        préféré</h2>
+                    <p>Si les X-Men ont souvent besoin de se déplacer, utiliser un jet n’est pas la meilleure des idées si l’ont se soucie de l’écologie.</p>
+                    <h3>Lire la suite</h3>
+                </article>
+            </a>
+            <a href="impact.html">
+                <article>
+                    <img src="public/img/accueil/accueil_2.webp" alt="article impact">
+                    <h2>Les X-Men et leur jet privé se  
+                        soucient-ils vraiment de 
+                        leur empreinte carbone ?</h2>
+                    <p>Ce n’est pas nouveau, les avions ne
+                        sont pas le moyen de transport le
+                        plus écologique, et le Blackbird ne fait
+                        pas exception à la règle</p>
+                    <h3>Lire la suite</h3>
+                </article>
+            </a>
+            <a href="alternatives.html">
+                <article>
+                    <img src="public/img/accueil/accueil_3.webp" alt="article alternatives">
+                    <h2>Être écolo, c’est dire
+                        « non » à l’avion ?</h2>
+                    <p>Si l’avion pollue autant, quel autre
+                        moyen de transport pouvons nous
+                        utiliser ? Voiture ? Train ? Bateau ?</p>
+                    <h3>Lire la suite</h3>
+                </article>
+            </a>
+           
+        
+        
+        </main>
 
    
-    <footer class="footer">
+        <footer class="footer">
       
       
       
@@ -73,20 +112,21 @@
           </p>
        
   
-      <div class="footer__contact">
-       <a href="contact.html"> 
-           <button>Me contacter</button>
-            <button>Autres projets</button>
-        </a>
-    <a class="mailto" href="mailto:moramarcolucas@gmail.com"><img src="public/img/autres/mail.webp" alt="icône  mail"></a>
-    <div class="footer__social">
-        <a href="https://facebook.com" aria-label="facebook"><img class="footer__icon" src="public/img/autres/iconfb.webp" alt="icone facebook"></a></li> 
-        <a href="https://instagram.com" aria-label="instagram"><img class="footer__icon" src="public/img/autres/iconinsta.webp" alt="icone instagram"></a></li>
-        <a href="https://twitter.com" aria-label="twitter"><img class="footer__icon" src="public/img/autres/icontwitter.webp" alt="icone twitter"></a></li>
-         
+            <div class="footer__contact">
+                <a href="contact.html"> 
+                    <button>Me contacter</button>
+                    <button>Autres projets</button>
+                </a>
+            </div>
+            <a class="mailto" href="mailto:moramarcolucas@gmail.com"><img src="public/img/autres/mail.webp" alt="icône  mail"></a>
+            <div class="footer__social">
+                <a href="https://facebook.com" aria-label="facebook"><img class="footer__icon" src="public/img/autres/iconfb.webp" alt="icone facebook"></a></li> 
+                <a href="https://instagram.com" aria-label="instagram"><img class="footer__icon" src="public/img/autres/iconinsta.webp" alt="icone instagram"></a></li>
+                <a href="https://twitter.com" aria-label="twitter"><img class="footer__icon" src="public/img/autres/icontwitter.webp" alt="icone twitter"></a></li>
+                
         
-    </div>
-    </footer>
+            </div>
+        </footer>
 
-  </body>
+    </body>
 </html>
