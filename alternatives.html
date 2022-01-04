@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="fr" x-data="{ menuIsOpen : false }" :class="menuIsOpen && 'noscroll'">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Site de FeminSchool">
+
+    <title>X-Men - Alternatives </title>
+
+    <link rel="icon" href="public/img/autres/logoxmen.webp" />
+    
+  </head>
+  <body >
+        <!-- Header -->
+        <header class = "header">
+            <!-- Partie gauche du header avec l'icone du menu hamburger uniquement -->
+            <div class="header__start"> 
+            
+            <button class="header__menu-btn menu-btn"
+                        @click="menuIsOpen = !menuIsOpen"
+                        :class="menuIsOpen && 'menu-btn--open'">
+                <span class="menu-btn__bar"></span>
+                </button>
+            </div>
+            <!-- Partie centrale du header avec l'icone du site uniquement -->
+            <div class="header__end">
+            
+                <a class="header__logo" href="index.html">
+                <img class="header__logo" src="public/img/autres/logoxmen.webp" alt="logo X-Men">
+                </a>  
+            </div>
+            
+            <!-- Menu déroulant -->
+
+            <nav class="header__menu menu" :class="menuIsOpen && 'menu--open'">
+                
+                <ul class="menu__list list-unstyled">
+                
+                    <li class="menu__item"><a class="menu__link" href="index.html">Accueil</a></li>
+                    <span class="menu_line"></span>
+                    <li class="menu__item"><a class="menu__link" href="blackbird.html">Le Blackbird</a></li>
+                    
+                    <li class="menu__item"><a class="menu__link" href="impact.html">L’impact du trafic aérien sur notre planète</a></li>
+                    <li class="menu__item"><a class="menu__link" href="alternatives.html">Les alternatives </a></li>
+                    
+                    <li class="menu__item"><a class="menu__link" href="galerie.html">Galerie</a></li>
+                    
+                    <li class="menu__item"><a class="menu__link" href="apropos.html">A propos</a></li>
+                    
+                    
+                </ul>
+            </nav>
+            
+        </header>
+
+        <main>
+            <h6>Accueil > Alternative</h6>
+            <h1>Quelles sont les alternatives à l’avion dans ce cas ?</h1>
+            <p><em> 
+                Si l’avion semble être un moyen de transport très 
+                polluant, et donc à éviter, il ne faut pas pour 
+                autant y renoncer complètement. En eﬀet, pour 
+                certaines destinations lointaines, l’avion est 
+                nécessaire, et s’il reste exceptionnel, ne pose pas 
+                tant de problèmes.  
+            </em></p>
+            <img src="public/img/alternative/alternative_1.webp" alt="Les X-Men">
+            <p>
+                Cependant, la chose à faire serait de remplacer 
+                les voyages aériens par d’autres véhicules, pour 
+                des trajets raisonnables. Pour des trajets de 
+                moins de 800km, il faudrait donc privilégier le 
+                train, qui émet 300 fois moins de dioxyde de 
+                carbone que l’avion pour le même trajet. 
+                Le principal soucis concernant les vols en 
+                avion, c’est l’augmentation de ces derniers au 
+                cours des 50 dernières années. Si en 1975, on 
+                compte 10 millions de départ, on en compte en 
+                2012, 50 millions. L’augmentation importante 
+                du nombre de vols et donc des émissions de 
+                CO2 est l’une des raisons pour laquelle il faut 
+                essayer de trouver des alternatives, ou tout du 
+                moins, réduire les vols. 
+            </p>
+            <img src="public/img/alternative/alternative_2.webp" alt="Les X-Men">
+            <p>
+                On peut par exemple pointer du doigt la 
+                globalisation et la mondialisation, qui est à 
+                l’origine de nombreux échanges par voie 
+                aérienne. Car le transport des produits est à 
+                l’origine d’une part importante des émissions 
+                de CO2. Il faudrait alors réduire la demande et 
+                la consommation de produits venant de trop 
+                loin aﬁn de développer les commerces de 
+                proximité. Ceci dans un but écologique. 
+                Privilégier le commerce local, éviter les produits 
+                importés par avion semble déjà être une idée 
+                intéressante pour nous, simples citoyens. 
+                Pour ce qui est des trajets, on peut également 
+                tenter de changer certaines habitudes, et 
+                essayer de réduites certaines pratiques. Le 
+                tourisme de masse, les voyages de quelques 
+                jours dans un pays limitrophe par avion, et 
+                autres trajets qui peuvent être évités, en avion 
+                au moins. 
+            </p>
+            <img src="public/img/autres/Lines_1.webp" alt="">
+            <h4> «Privilégier le commerce 
+                local, éviter les produits 
+                importés par avion»
+            </h4>
+            <p>
+                On a également parlé de réduire les voyages, 
+                mais cela ne signiﬁe pas d’arrêter de voyager 
+                évidemment. Il est uniquement question de 
+                privilégier le train à l’avion pour les distances 
+                qui le permettent. En eﬀet, le train est le moyen 
+                de transport le plus écologique. En plus 
+                d’émettre beaucoup moins de CO2, il est 
+                également moins gourmand en énergie, et 
+                reste plus silencieux, donc respectueux, pour 
+                les populations aux alentours. De plus, il sera 
+                possible de développer des trains 
+                complètement électriques, donc sans rejets de 
+                CO2.   
+            </p>
+           
+            <img src="public/img/alternative/alternative_3.webp" alt="Le Lockheed SR-71 Blackbird">
+            <h5>
+                Si l’on veut réduire les émissions de dioxyde 
+                de carbone, responsables de l’eﬀet de serre, 
+                nous devons diminuer le traﬁc aérien qui 
+                produit une grande partie (12%) des 
+                émissions de CO2. Privilégiez donc le train 
+                pour les moyennes distances, ou encore la 
+                voiture. Consommez local, baissez votre 
+                demande de marchandises trop lointaines, 
+                qui nécessitent des importations par avion. 
+            </h5>
+            
+            <img src="public/img/autres/Lines_1.webp" alt="fond en ligne">
+            <a href="galerie.html">Galerie</a>
+            <img src="public/img/autres/Pagination_1.webp" alt="">
+
+        </main>
+
+   
+        <footer class="footer">
+      
+      
+      
+          <p>Projet réalisé dans le cadre d’un exercice pédagogique au département
+            <a href="http://mmimontbeliard.com"><strong>MMi de Montbéliard.</strong></a>
+          </p>
+       
+  
+            <div class="footer__contact">
+                <a href="contact.html">Me contacter</a>
+                <a href="contact.html">Autres projets</a>
+               
+            </div>
+            <a href="mailto:moramarcolucas@gmail.com"><img src="public/img/autres/mail.webp" alt="icône  mail"></a>
+            <div class="footer__social">
+                <a href="https://facebook.com" aria-label="facebook"><img class="footer__icon" src="public/img/autres/iconfb.webp" alt="icone facebook"></a>
+                <a href="https://instagram.com" aria-label="instagram"><img class="footer__icon" src="public/img/autres/iconinsta.webp" alt="icone instagram"></a>
+                <a href="https://twitter.com" aria-label="twitter"><img class="footer__icon" src="public/img/autres/icontwitter.webp" alt="icone twitter"></a>
+            </div>
+            <p>PierrePolJ</p>
+        </footer>
+
+    </body>
+</html>

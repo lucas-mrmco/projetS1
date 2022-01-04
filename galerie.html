@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="fr" x-data="{ menuIsOpen : false }" :class="menuIsOpen && 'noscroll'">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Site de FeminSchool">
+
+    <title>X-Men - Galerie </title>
+
+    <link rel="icon" href="public/img/autres/logoxmen.webp" />
+    
+  </head>
+  <body >
+        <!-- Header -->
+        <header class = "header">
+            <!-- Partie gauche du header avec l'icone du menu hamburger uniquement -->
+            <div class="header__start"> 
+            
+            <button class="header__menu-btn menu-btn"
+                        @click="menuIsOpen = !menuIsOpen"
+                        :class="menuIsOpen && 'menu-btn--open'">
+                <span class="menu-btn__bar"></span>
+                </button>
+            </div>
+            <!-- Partie centrale du header avec l'icone du site uniquement -->
+            <div class="header__end">
+            
+                <a class="header__logo" href="index.html">
+                <img class="header__logo" src="public/img/autres/logoxmen.webp" alt="logo X-Men">
+                </a>  
+            </div>
+            
+            <!-- Menu déroulant -->
+
+            <nav class="header__menu menu" :class="menuIsOpen && 'menu--open'">
+                
+                <ul class="menu__list list-unstyled">
+                
+                    <li class="menu__item"><a class="menu__link" href="index.html">Accueil</a></li>
+                    <span class="menu_line"></span>
+                    <li class="menu__item"><a class="menu__link" href="blackbird.html">Le Blackbird</a></li>
+                    
+                    <li class="menu__item"><a class="menu__link" href="impact.html">L’impact du trafic aérien sur notre planète</a></li>
+                    <li class="menu__item"><a class="menu__link" href="alternatives.html">Les alternatives </a></li>
+                    
+                    <li class="menu__item"><a class="menu__link" href="galerie.html">Galerie</a></li>
+                    
+                    <li class="menu__item"><a class="menu__link" href="apropos.html">A propos</a></li>
+                    
+                    
+                </ul>
+            </nav>
+            
+        </header>
+
+        <main>
+            <h6>Accueil > Galerie</h6>
+
+            <img src="public/img/galerie/galerie_1.webp" alt="">
+            <img src="public/img/galerie/galerie_2.webp" alt="">
+            <img src="public/img/galerie/galerie_3.webp" alt="">
+            <img src="public/img/galerie/galerie_4.webp" alt="">
+            <img src="public/img/galerie/galerie_5.webp" alt="">
+            <img src="public/img/galerie/galerie_6.webp" alt="">
+            <img src="public/img/galerie/galerie_7.webp" alt="">
+            <img src="public/img/galerie/galerie_8.webp" alt="">
+            <img src="public/img/galerie/galerie_9.webp" alt="">
+            
+           
+        </main>
+
+   
+        <footer class="footer">
+      
+      
+      
+          <p>Projet réalisé dans le cadre d’un exercice pédagogique au département
+            <a href="http://mmimontbeliard.com"><strong>MMi de Montbéliard.</strong></a>
+          </p>
+       
+  
+            <div class="footer__contact">
+                <a href="contact.html">Me contacter</a>
+                <a href="contact.html">Autres projets</a>
+               
+            </div>
+            <a href="mailto:moramarcolucas@gmail.com"><img src="public/img/autres/mail.webp" alt="icône  mail"></a>
+            <div class="footer__social">
+                <a href="https://facebook.com" aria-label="facebook"><img class="footer__icon" src="public/img/autres/iconfb.webp" alt="icone facebook"></a>
+                <a href="https://instagram.com" aria-label="instagram"><img class="footer__icon" src="public/img/autres/iconinsta.webp" alt="icone instagram"></a>
+                <a href="https://twitter.com" aria-label="twitter"><img class="footer__icon" src="public/img/autres/icontwitter.webp" alt="icone twitter"></a>
+            </div>
+            <p>PierrePolJ</p>
+        </footer>
+
+    </body>
+</html>
