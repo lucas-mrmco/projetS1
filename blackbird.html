@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="fr" x-data="{ menuIsOpen : false }" :class="menuIsOpen && 'noscroll'">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Site de FeminSchool">
+
+    <title>X-Men - Blackbird </title>
+
+    <link rel="icon" href="public/img/autres/logoxmen.webp" />
+    
+  </head>
+  <body >
+        <!-- Header -->
+        <header class = "header">
+            <!-- Partie gauche du header avec l'icone du menu hamburger uniquement -->
+            <div class="header__start"> 
+            
+            <button class="header__menu-btn menu-btn"
+                        @click="menuIsOpen = !menuIsOpen"
+                        :class="menuIsOpen && 'menu-btn--open'">
+                <span class="menu-btn__bar"></span>
+                </button>
+            </div>
+            <!-- Partie centrale du header avec l'icone du site uniquement -->
+            <div class="header__end">
+            
+                <a class="header__logo" href="index.html">
+                <img class="header__logo" src="public/img/autres/logoxmen.webp" alt="logo X-Men">
+                </a>  
+            </div>
+            
+            <!-- Menu déroulant -->
+
+            <nav class="header__menu menu" :class="menuIsOpen && 'menu--open'">
+                
+                <ul class="menu__list list-unstyled">
+                
+                    <li class="menu__item"><a class="menu__link" href="index.html">Accueil</a></li>
+                    <span class="menu_line"></span>
+                    <li class="menu__item"><a class="menu__link" href="blackbird.html">Le Blackbird</a></li>
+                    
+                    <li class="menu__item"><a class="menu__link" href="impact.html">L’impact du trafic aérien sur notre planète</a></li>
+                    <li class="menu__item"><a class="menu__link" href="alternatives.html">Les alternatives </a></li>
+                    
+                    <li class="menu__item"><a class="menu__link" href="galerie.html">Galerie</a></li>
+                    
+                    <li class="menu__item"><a class="menu__link" href="apropos.html">A propos</a></li>
+                    
+                    
+                </ul>
+            </nav>
+            
+        </header>
+
+        <main>
+            <h6>Accueil > Blackbird</h6>
+            <h1>Inspiré du Lockheed SR-71, 
+                le Blackbird n’est pas le véhicule  
+                le plus éco-responsable  
+                pour nos amis les super-héros.</h1>
+            <p><em> Les X-Men sont une équipe bien connue de super-
+                héros, issus de l’univers ﬁctif Marvel. Ils sont créés 
+                par Stan Lee (scénariste à l’origine de plusieurs 
+                autres héros comme Spider-Man, Hulk ou encore 
+                les Avengers) et Jack Kirby pour les dessins. Leur 
+                première apparition date de septembre 1963, 
+                dans le comic éponyme. </em></p>
+            <img src="public/img/blackbird/blackbird_1.webp" alt="Les X-Men">
+            <p>Les membres des X-Men sont généralement 
+                des mutants humanoïdes. Dirigés par le 
+                Professeur Xavier, un autre mutant aux 
+                pouvoirs télépathiques, les X-Men se battent 
+                contre Magnéto, un mutant pouvant se servir 
+                des champs magnétiques. Les X-Men doivent 
+                souvent se déplacer aux quatre coins du 
+                monde pour mener de nombreuses opérations 
+                et missions. Pour cela, ces héros se servent du 
+                Blackbird, également appelé X-Jet. Ils utiliseront 
+                cet avion pour sa vitesse légendaire et sa 
+                discrétion. Il s’agit là d’un avion/jet apparu pour 
+                la première fois dans le numéro #104 des  
+                X-Men. Ce véhicule aérien constitue le moyen 
+                de transport principal de l’équipe. C’est le 
+                professeur Xavier, qui après la destruction de 
+                Stratojet, réussi à obtenir l’avion. </p>
+            <img src="public/img/autres/Lines_1.webp" alt="">
+            <h4>«If they have anything that 
+                can pick up our jet, they 
+                deserve to catch us.» - 
+                Cyclops en parlant du X-Jet. 
+            </h4>
+            <p>
+                Le Blackbird des X-Men est en fait un Lockheed 
+                SR-71 « Blackbird », un avion espion américain 
+                des années 70. Cet appareil militaire est mis en 
+                service en 1966, et servira à des missions 
+                d’espionnage aérien à haute altitude. Connu 
+                pour ses caractéristiques hors du commun, le 
+                Blackbird reste encore aujourd’hui un avion 
+                légendaire. Capable d’atteindre une vitesse de 
+                plus de 3 500 km/h (soit Mach +3,2), il s’agit du 
+                5ème avion le plus rapide de l’histoire, derrière 
+                le North American X-15 (7270km/h). Destiné à 
+                l’espionnage, cet avion ne compte pas 
+                d’équipement oﬀensif mais de nombreux 
+                capteurs tels que des appareils photo, 
+                plusieurs radars et autres caméras thermiques.  
+            </p>
+           
+            <img src="public/img/blackbird/blackbird_2.webp" alt="Le Lockheed SR-71 Blackbird">
+            
+            <img src="public/img/autres/Lines_1.webp" alt="">
+            <h4>“L’avion-espion américain 
+                des années 70-80”
+            </h4>
+            <p>Évidemment, la consommation énergétique 
+                d’un tel appareil n’est pas des moindres. Pour 
+                atteindre de telles vitesses, le Blackbird 
+                possède une consommation moyenne 
+                d’environ 30 000 litres par heure, ce qui 
+                équivaut à plus de 500 litres par minute. Mais si 
+                ces nombres nous semblent déjà assez 
+                impressionnants, il faut les comparer avec des 
+                avions plus courants (avions de ligne 
+                traditionnels) pour se rendre compte de la 
+                puissance et des ressources énergétiques 
+                nécessaires au fonctionnement de tels avions. 
+                L’avion de ligne le plus vendu est le Airbus 
+                A320. Il consomme, selon Airbus, 3L de 
+                carburant par kilomètre. Ce chiﬀre passe à 10L 
+                par kilomètre pour le Blackbird, soit 3 fois plus. 
+                De plus, l’avion est actuellement le moyen de 
+                transport le plus polluant, de part la quantité 
+                de kérosène (carburant utilisé par les avions) 
+                consommée. En moyenne, la combustion du 
+                kérosène rejette 300g de CO2 par kilomètre. 
+                Par exemple, pour un aller/retour Paris-
+                Marseille (1300km), les émissions de CO2 sont 
+                égales à 0,442 tonnes.</p>
+            <img src="public/img/blackbird/blackbird_3.webp" alt="">
+            <h5>Avec ces données, on peut se questionner 
+                sur l’empreinte écologique des X-Men, qui 
+                utilisent cet avion dés lors qu’ils sont sollicités 
+                pour une quelconque mission quelque part 
+                dans le monde. Car utiliser un avion militaire, 
+                ce n’est sûrement pas le moyen le plus 
+                écologique pour se déplacer même si c’est 
+                pour échapper à des ennemis tous plus 
+                dangereux et malveillants les uns que les 
+                autres.
+            </h5>
+            <img src="public/img/autres/Lines_1.webp" alt="fond en ligne">
+            <button>galerie</button>
+            <img src="public/img/autres/Pagination_1.webp" alt="">
+
+        </main>
+
+   
+        <footer class="footer">
+      
+      
+      
+          <p>Projet réalisé dans le cadre d’un exercice pédagogique au département
+            <a href="http://mmimontbeliard.com"><strong>MMi de Montbéliard.</strong></a>
+          </p>
+       
+  
+            <div class="footer__contact">
+                 
+                <button>Me contacter</button>
+                <button>Autres projets</button>
+              
+            </div>
+            <a href="mailto:moramarcolucas@gmail.com"><img src="public/img/autres/mail.webp" alt="icône  mail"></a>
+            <div class="footer__social">
+                <a href="https://facebook.com" aria-label="facebook"><img class="footer__icon" src="public/img/autres/iconfb.webp" alt="icone facebook"></a>
+                <a href="https://instagram.com" aria-label="instagram"><img class="footer__icon" src="public/img/autres/iconinsta.webp" alt="icone instagram"></a>
+                <a href="https://twitter.com" aria-label="twitter"><img class="footer__icon" src="public/img/autres/icontwitter.webp" alt="icone twitter"></a>
+            </div>
+            <p>PierrePolJ</p>
+        </footer>
+
+    </body>
+</html>
