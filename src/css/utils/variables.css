@@ -5,6 +5,7 @@
 --orange: rgba(255, 204, 0, 1);
 --noir: rgba(0, 0, 0, 1);
 --background-body: rgba(247, 247, 247, 1);
+--btn-blue: rgba(177, 231, 247, 1);
 
 /* Text-size styles */
 --contact-light: 14px;
@@ -22,4 +23,5 @@
 --h2-accueil: 14px;
 --h1-accueil: 23px;
 --legendes: 12px;
+--suite: 18px;
 }
