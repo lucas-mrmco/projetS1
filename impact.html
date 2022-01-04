@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="fr" x-data="{ menuIsOpen : false }" :class="menuIsOpen && 'noscroll'">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Site de FeminSchool">
+
+    <title>X-Men - Impact </title>
+
+    <link rel="icon" href="public/img/autres/logoxmen.webp" />
+    
+  </head>
+  <body >
+        <!-- Header -->
+        <header class = "header">
+            <!-- Partie gauche du header avec l'icone du menu hamburger uniquement -->
+            <div class="header__start"> 
+            
+            <button class="header__menu-btn menu-btn"
+                        @click="menuIsOpen = !menuIsOpen"
+                        :class="menuIsOpen && 'menu-btn--open'">
+                <span class="menu-btn__bar"></span>
+                </button>
+            </div>
+            <!-- Partie centrale du header avec l'icone du site uniquement -->
+            <div class="header__end">
+            
+                <a class="header__logo" href="index.html">
+                <img class="header__logo" src="public/img/autres/logoxmen.webp" alt="logo X-Men">
+                </a>  
+            </div>
+            
+            <!-- Menu déroulant -->
+
+            <nav class="header__menu menu" :class="menuIsOpen && 'menu--open'">
+                
+                <ul class="menu__list list-unstyled">
+                
+                    <li class="menu__item"><a class="menu__link" href="index.html">Accueil</a></li>
+                    <span class="menu_line"></span>
+                    <li class="menu__item"><a class="menu__link" href="blackbird.html">Le Blackbird</a></li>
+                    
+                    <li class="menu__item"><a class="menu__link" href="impact.html">L’impact du trafic aérien sur notre planète</a></li>
+                    <li class="menu__item"><a class="menu__link" href="alternatives.html">Les alternatives </a></li>
+                    
+                    <li class="menu__item"><a class="menu__link" href="galerie.html">Galerie</a></li>
+                    
+                    <li class="menu__item"><a class="menu__link" href="apropos.html">A propos</a></li>
+                    
+                    
+                </ul>
+            </nav>
+            
+        </header>
+
+        <main>
+            <h1>Les X-Men et leur jet privé se  
+                soucient-ils vraiment de 
+                leur empreinte carbone ?</h1>
+            
+            <p><em>Se déplacer en avion, on l’admet, c’est rapide et 
+                pratique, mais est-ce sans conséquences pour 
+                l’environnement ? Un appareil qui émet des 
+                centaines de kilos de CO2 ne semble en eﬀet pas 
+                être la meilleure option pour un trajet  
+                éco-responsable.</em></p>
+            <img src="public/img/impact/impact_1.webp" alt="">
+            <p>Si les X-Men se déplacent à l’aide de leur 
+                puissant avion, ce n’est pas sans conséquences 
+                pour la planète. En eﬀet, ils utilisent le 
+                Blackbird pour se déplacer lors de leurs 
+                missions et autres rendez-vous de super-héros. 
+                Ce dernier est un avion espion américain, 
+                possédant une consommation énergétique 
+                conséquente. Cet avion consomme plus de 500 
+                litres de carburant à la minute, et pour cause, il 
+                s’agit d’un avion militaire. Ce genre d’avions 
+                privilégie la puissance au rendement, ce qui 
+                nous donne évidemment un très mauvais bilan 
+                carbone. 
+                Les avions sont, malheureusement, le moyen 
+                de transport le plus polluant. Pour un aller-
+                retour de 1000km, la consommation d’énergie 
+                est de 76kg de carburant. Quant au bilan CO2, 
+                il est de 250kg de CO2. En comparaison, le TGV 
+                possède un bilan carbone de 3,2kg de CO2 
+                pour la même distance. Alors si une heure 
+                d’avion émet 13 fois plus de CO2 qu’une heure 
+                de route, on peut se questionner sur les eﬀets 
+                du dioxyde de carbone sur notre 
+                environnement. </p>
+            <img src="public/img/impact/impact_2.webp" alt="">
+            <p>Sur Terre, ce sont les rayons solaires 
+                (ultraviolets) qui créent de la chaleur et 
+                modiﬁent la température globale. Cependant, 
+                ces rayons ne nous atteignent pas directement 
+                depuis le soleil, ils sont ﬁltrés au niveau de 
+                notre atmosphère. En eﬀet, entre 20 et 50km 
+                d’altitude se situe la couche d’ozone, une 
+                concentration d’ozone qui absorbe une grande 
+                partie des rayons ultraviolets qui pourraient 
+                être néfastes. Cette couche permet de ﬁltrer 
+                les rayons UV-B et de créer l’atmosphère. Ainsi, 
+                si cette couche d’ozone se voit diminuer de 
+                volume, les rayons ultraviolets émis par le soleil 
+                pourraient modiﬁer l’atmosphère et la 
+                température globale de notre planète.</p>
+            <img src="public/img/impact/impact_3.webp" alt="">
+            <p>C’est ici qu’entrent en jeu les gaz à eﬀet de 
+                serre. L’eﬀet de serre est un phénomène 
+                naturel, qui fait qu’une partie de l’énergie émise 
+                par la terre est retenue dans l’atmosphère sous 
+                forme de chaleur (vapeur d’eau en grande 
+                majorité). Cependant, si ce phénomène est tout 
+                à fait normal et permet en partie de chauﬀer 
+                notre planète, il existe un eﬀet de serre non 
+                naturel, l’eﬀet de serre renforcé. Pour cause, 
+                des gaz émis en grandes quantités par les 
+                activités humaines récentes augmentent et 
+                aggravent l’eﬀet de serre. Ces gaz à eﬀet de 
+                serre viennent se concentrer dans 
+                l’atmosphère et sont alors responsables d’une 
+                augmentation de la température globale. L’un 
+                des principaux gaz concernés est le dioxyde de 
+                carbone, gaz que les avions rejettent en grande 
+                quantité.</p>
+            <img src="public/img/autres/Lines_1.webp" alt="">
+            <h4>« Le transport aérien 
+                représente actuellement 3% 
+                des émissions de CO2 avec un effet sur le réchauffement de l’ordre de 6%. »</h4>
+            <p>Ainsi, d’après l’ouvrage La Pollution de l’air 
+                (sources, eﬀets, prévention), le GIEC (groupe 
+                d’experts intergouvernemental sur l’évolution 
+                du climat), dans un rapport de 1995, attribue 
+                en partie aux activités humaines le 
+                réchauﬀement observé au cours de ce siècle 
+                qui est de 0,3 à 0,6°C.  
+                Ce réchauﬀement dû aux gaz à eﬀet de serre 
+                atteindrait 1 à 3°C d’ici 2100. </p>
+            <img src="public/img/impact/impact_4.webp" alt="">
+            <h5>Les avions contribuent donc grandement à 
+                l’eﬀet de serre, de par leurs importantes 
+                émissions de CO2, aﬀectant ainsi 
+                négativement le climat.</h5>
+        </main>
+
+   
+        <footer class="footer">
+      
+      
+      
+          <p>Projet réalisé dans le cadre d’un exercice pédagogique au département
+            <a href="http://mmimontbeliard.com"><strong>MMi de Montbéliard.</strong></a>
+          </p>
+       
+  
+            <div class="footer__contact">
+                 
+                <button>Me contacter</button>
+                <button>Autres projets</button>
+              
+            </div>
+            <a href="mailto:moramarcolucas@gmail.com"><img src="public/img/autres/mail.webp" alt="icône  mail"></a>
+            <div class="footer__social">
+                <a href="https://facebook.com" aria-label="facebook"><img class="footer__icon" src="public/img/autres/iconfb.webp" alt="icone facebook"></a>
+                <a href="https://instagram.com" aria-label="instagram"><img class="footer__icon" src="public/img/autres/iconinsta.webp" alt="icone instagram"></a>
+                <a href="https://twitter.com" aria-label="twitter"><img class="footer__icon" src="public/img/autres/icontwitter.webp" alt="icone twitter"></a>
+            
+        </footer>
+
+    </body>
+</html>
