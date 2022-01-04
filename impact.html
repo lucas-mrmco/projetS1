@@ -8,8 +8,10 @@
 
     <title>X-Men - Impact </title>
 
-    <link rel="icon" href="public/img/autres/logoxmen.webp" />
+    <link rel="icon" href="public/img/logo/logoxmen.png" />
     <link rel="stylesheet" href="src/css/style.css">
+    <script defer="" src="https://unpkg.com/alpinejs@3.4.2/dist/cdn.min.js"></script>
+    <script src="src/js/function.js"></script>
   </head>
   <body >
         <!-- Header -->
@@ -17,35 +19,35 @@
             <!-- Partie gauche du header avec l'icone du menu hamburger uniquement -->
             <div class="header__start"> 
             
-            <button class="header__menu-btn menu-btn"
-                        @click="menuIsOpen = !menuIsOpen"
-                        :class="menuIsOpen && 'menu-btn--open'">
-                <span class="menu-btn__bar"></span>
+                <button class="header__menu-btn menu-btn"
+                         @click="menuIsOpen = !menuIsOpen"
+                         :class="menuIsOpen && 'menu-btn--open'">
+                    <span class="menu-btn__bar"></span>
                 </button>
             </div>
             <!-- Partie centrale du header avec l'icone du site uniquement -->
             <div class="header__end">
             
                 <a class="header__logo" href="index.html">
-                <img class="header__logo" src="public/img/autres/logoxmen.webp" alt="logo X-Men">
+                    <img class="header__logo" src="public/img/logo/logoxmen.png" alt="logo X-Men">
                 </a>  
             </div>
             
             <!-- Menu déroulant -->
 
             <nav class="header__menu menu" :class="menuIsOpen && 'menu--open'">
-                
+                <img src="public/img/fond_menu_impact.png" alt="fond menu" class="menu_fond">
+                <img class="menu_logo" src="public/img/logo/logoxmen.png" alt="logo X-Men">
+                <img src="public/img/croix2.webp" alt="menu croix" class="menu-croix"
+                @click="menuIsOpen = !menuIsOpen"
+                :class="menuIsOpen && 'menu-btn--open'">
                 <ul class="menu__list list-unstyled">
                 
                     <li class="menu__item"><a class="menu__link" href="index.html">Accueil</a></li>
-                    <span class="menu_line"></span>
                     <li class="menu__item"><a class="menu__link" href="blackbird.html">Le Blackbird</a></li>
-                    
-                    <li class="menu__item"><a class="menu__link" href="impact.html">L’impact du trafic aérien sur notre planète</a></li>
+                    <li class="menu__item"><a class="menu__link" href="impact.html">L’impact du trafic <br>aérien sur notre planète</a></li>
                     <li class="menu__item"><a class="menu__link" href="alternatives.html">Les alternatives </a></li>
-                    
                     <li class="menu__item"><a class="menu__link" href="galerie.html">Galerie</a></li>
-                    
                     <li class="menu__item"><a class="menu__link" href="apropos.html">A propos</a></li>
                     
                     
@@ -53,7 +55,6 @@
             </nav>
             
         </header>
-
         <main>
             <h6>Accueil > Impact</h6>
             <h1>Les X-Men et leur jet privé se  

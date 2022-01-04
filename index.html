@@ -36,18 +36,18 @@
             <!-- Menu déroulant -->
 
             <nav class="header__menu menu" :class="menuIsOpen && 'menu--open'">
-                
+                <img src="public/img/fond_menu_accueil.png" alt="fond menu" class="menu_fond">
+                <img class="menu_logo" src="public/img/logo/logoxmen.png" alt="logo X-Men">
+                <img src="public/img/croix2.webp" alt="menu croix" class="menu-croix"
+                @click="menuIsOpen = !menuIsOpen"
+                :class="menuIsOpen && 'menu-btn--open'">
                 <ul class="menu__list list-unstyled">
                 
                     <li class="menu__item"><a class="menu__link" href="index.html">Accueil</a></li>
-                    <span class="menu_line"></span>
                     <li class="menu__item"><a class="menu__link" href="blackbird.html">Le Blackbird</a></li>
-                    
-                    <li class="menu__item"><a class="menu__link" href="impact.html">L’impact du trafic aérien sur notre planète</a></li>
+                    <li class="menu__item"><a class="menu__link" href="impact.html">L’impact du trafic <br>aérien sur notre planète</a></li>
                     <li class="menu__item"><a class="menu__link" href="alternatives.html">Les alternatives </a></li>
-                    
                     <li class="menu__item"><a class="menu__link" href="galerie.html">Galerie</a></li>
-                    
                     <li class="menu__item"><a class="menu__link" href="apropos.html">A propos</a></li>
                     
                     
