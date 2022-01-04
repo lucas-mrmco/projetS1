@@ -1,0 +1,25 @@
+:root {
+    /* Color styles */
+--principale: rgba(255, 219, 76, 1);
+--principale-2: rgba(217, 245, 255, 1);
+--orange: rgba(255, 204, 0, 1);
+--noir: rgba(0, 0, 0, 1);
+--background-body: rgba(247, 247, 247, 1);
+
+/* Text-size styles */
+--contact-light: 14px;
+--h1: 23px;
+--chapo: 17px;
+--page: 10px;
+--body: 17px;
+--citation: 22px;
+--mentions-légales: 7px;
+--h2: 22px;
+--btn-footer: 10px;
+--menu: 19px;
+--galerie: 22px;
+--body-accueil: 10px;
+--h2-accueil: 14px;
+--h1-accueil: 23px;
+--legendes: 12px;
+}

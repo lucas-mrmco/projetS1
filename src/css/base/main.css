@@ -1,0 +1,114 @@
+main {
+  margin-top: 120px;
+}
+
+body{
+  top: 100px;
+    font-family: 'Mulish', sans-serif;
+    font-size: 13px;
+    width: 100vw;
+    height: 100vh;
+    background-color: #fafafa
+}
+
+h1{
+  align-self: auto;
+  color: var(--principale-1);
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  z-index: 2;
+  font-size: 20px;
+  padding: 5px 10px;
+}
+
+ 
+
+p strong {
+    color:var(--principale-1);
+}
+
+h2 {
+    align-self: auto;
+    color: var(--principale-1);
+    font-family: 'Roboto', sans-serif;
+    font-weight:bold;
+    z-index: 2;
+    font-size: 18px;
+    padding: 5px 10px;
+}
+
+h3 {
+    text-align: center;
+    color: #101010;
+    font-family: 'Red Hat Display', sans-serif; 
+    font-size: 16px;
+}
+
+h4 {
+    background-image: linear-gradient(to right top, #fb8181, #dc527b, #b3247b, #7c007e, #28007e);
+    background-clip: text;
+    color: transparent;
+}
+p {
+ 
+    color: #101010;
+    font-family: 'Mulish', sans-serif;
+    padding: 12px;
+}
+img{
+    text-align: center;
+    margin: auto;
+    display: flex;
+}
+
+.dates {
+    color: white;
+}
+a {
+    color: yellow;
+}
+
+
+.noscroll,
+.noscroll body {
+  overflow: hidden;
+}
+
+
+ /* Pagination links */
+ .pagination a {
+  color: var(--principal-2);
+  float: left;
+  padding: 12px 16px;
+  display: inline-flex;
+  content: none;
+  justify-content: space-between;
+  align-items: center;
+  text-decoration: none;
+  transition: background-color .3s;
+}
+
+.pagination a:first-child{
+
+  margin-left: 42.5vw ;
+}
+/* Style the active/current link */
+.pagination a.active {
+  background-color: var(--principale-1);
+  color: var(--principal-2);
+  border-radius: 100%;
+}
+
+/* Add a grey background color on mouse-over */
+.pagination a:hover:not(.active) {background-color: #ddd;} 
+
+p em {
+  display: block;
+  margin-top: 50px;
+}
+
+.gal_icon {
+  width: auto;
+  height: 200px;
+}
