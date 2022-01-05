@@ -3,7 +3,6 @@
 .footer {
     background-color: var(--principale-2);
     padding: 10px;
-    position: relative;
   }
   
   .footer h1 {
