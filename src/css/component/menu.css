@@ -63,8 +63,9 @@
   z-index: 6;
   width: 70px;
   top: 22px;
-  right: -138px;
+  right: -290px;
 }
+
 .menu_logo {
     display: flex;
     position: fixed;

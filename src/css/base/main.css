@@ -207,6 +207,7 @@ p em {
   margin-top: 100px;
   position: relative;
   margin-bottom: 100px;
+  padding-right: 0;
 
 }
 
@@ -214,5 +215,5 @@ p em {
   transform: rotate(170deg);
   margin-top: 0px;
   margin-left: -20px;
-  width: 90%;
+  width: 80%;
 }

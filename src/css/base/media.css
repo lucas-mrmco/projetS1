@@ -19,3 +19,17 @@ figcaption {
     z-index: 2;
     opacity: 0.7;
 }
+
+ .galerie_normal {
+     width: 305px;
+     height: auto;
+ }
+
+ .galerie_small {
+     width: auto;
+     height: 120px;
+ }
+
+ .image9{
+     position:absolute
+ }
