@@ -31,5 +31,20 @@ figcaption {
  }
 
  .image9{
-     position:absolute
+     position:absolute;
+     margin-top:50px;
+	 left:0;
+	 z-index: 0;
  }
+
+ .images9 img {
+    justify-items: center;
+ }
+
+ .carrousel9 {
+	grid-column: 2;
+	grid-row: 2;
+	width: 100vw;
+	padding: 0px;
+	position: relative;
+}
