@@ -21,13 +21,18 @@ figcaption {
 }
 
  .galerie_normal {
-     width: 305px;
+     width: 300px;
      height: auto;
+     margin-left: 25px;
+     margin-top: 10px;
+     margin-bottom: 10px;
  }
 
  .galerie_small {
      width: auto;
-     height: 120px;
+     height: 100px;
+     margin-left: 15px;
+     margin-top:  20px;
  }
 
  .line_quote {
@@ -42,4 +47,11 @@ figcaption {
      z-index: 2;
      position: absolute;
      margin-top: 40px;
+ }
+
+ .graph {
+     width: 330px;
+     height: auto;
+     display: block;
+     margin-left: 20px;
  }

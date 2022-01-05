@@ -2,7 +2,7 @@
     position:absolute;
     margin-top:50px;
     margin-bottom: 100px;
-    left:0;
+    left:20px;
     z-index: 1;
 }
 
@@ -17,5 +17,4 @@
    grid-row: 2;
    width: 100vw;
    padding: 0px;
-   position: relative;
 }

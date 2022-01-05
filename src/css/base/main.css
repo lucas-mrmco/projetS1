@@ -27,12 +27,13 @@ h1{
   align-self: auto;
   color: var(--principale-1);
   font-family: 'OpenSans', sans-serif;
-  font-style: italic, 'semibold';
-  font-weight: 400;
+  font-style: italic;
+  font-weight: 'semibold';
   z-index: 2;
   font-size: var(--h1);
   padding: 5px 10px;
   position: relative;
+  margin-bottom: -40px;
 }
 
  
@@ -85,6 +86,8 @@ p {
 
 .bilan {
   font-weight: initial;
+  top: -100  px;
+
 }
 
 
@@ -244,7 +247,7 @@ p em {
   
 }
 
-.accueil h1 {
+.accueil_h1 {
   align-self: auto;
   color: var(--principale-1);
   font-family: 'Open Sans', sans-serif;
@@ -252,7 +255,8 @@ p em {
   z-index: 2;
   font-size: var(--h1-accueil);
   position: relative;
-  align-items: center;
+  text-align: center;
+  margin-bottom: 30px;
 }
 
 .line_big {
@@ -323,5 +327,6 @@ input[type=text], textarea, input[type=email] {
 .contact_h1 {
   display: block;
   text-align: center;
-
+  text-transform: inherit;
+  margin-bottom: 20px;
 }
