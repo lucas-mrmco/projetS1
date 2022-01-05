@@ -59,11 +59,22 @@ h4 {
     font-size: var(--citation);
     font-family: 'Playfair Display', sans-serif;
     position: relative;
+    margin-top: -200px;
+    width: 300px;
+    display: block;
+    text-align: center;
+    margin-left: 30px;
+    margin-bottom: 50px;
+    z-index: 3;
+    
+}
+.h4_invers {
+  margin-top: -80px;
 }
 
 h5{
   font-family: 'OpenSans', sans-serif;
-  font-size: var(--h5);
+  font-size: var(--body);
 }
 p {
   margin: 10px;
@@ -72,6 +83,9 @@ p {
   font-size: var(--body);
 }
 
+.bilan {
+  font-weight: initial;
+}
 
 
 .noscroll,
@@ -170,14 +184,14 @@ p em {
 }
 .pagination_before {
   position: absolute;
-  margin-top: -180px;
-  margin-left: 190px;
+  margin-top: 80px;
+  margin-left: -150px;
   transform: rotate(180deg);
 }
 .pagination_next {
   position: absolute;
-  margin-top: -180px;
-  margin-left: 250px;
+  margin-top: 80px;
+  margin-left: -90px;
 }
 .btn_galerie{
   appearance: none;

@@ -30,4 +30,16 @@ figcaption {
      height: 120px;
  }
 
- 
+ .line_quote {
+     position: relative;
+     height: 500px;
+     z-index: 1;
+     margin-top: -100px;
+     
+ }
+
+ .img_online {
+     z-index: 2;
+     position: absolute;
+     margin-top: 40px;
+ }

@@ -3,7 +3,7 @@
     margin-top:50px;
     margin-bottom: 100px;
     left:0;
-    z-index: 0;
+    z-index: 1;
 }
 
 .images9 img {
@@ -11,19 +11,11 @@
    width: 330px ;
    height: auto;
 }
-/* 
+
 .carrousel9 {
    grid-column: 2;
    grid-row: 2;
    width: 100vw;
    padding: 0px;
    position: relative;
-} */
-
-.btn_caroussel {
-    display: flex;
-    width: 100%;
-    margin: 10px;
-    justify-content: space-between;
-    gap: 3vw;
 }
