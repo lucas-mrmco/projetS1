@@ -55,3 +55,57 @@ figcaption {
      display: block;
      margin-left: 20px;
  }
+
+ .autres_projets {
+    width: 130px;
+    height: auto;
+    margin: 15px;
+    margin-left: 30px;
+  } 
+  .autres_projets2 {
+    width: 130px;
+    height: auto;
+    margin: 15px;
+    margin-left: 30px;
+    margin-top: 80px;
+  } 
+
+  .glisse .galerie {
+    position: relative;
+    height: 120px;
+    width: 375px;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+.glisse .galerie__title {
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    width: 120px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    z-index: 2;
+    color: black;
+    background-color: var(--principale-2);
+    top: 0;
+    display: flex;
+}
+
+ .galerie__img {
+     width:120px;
+     height: auto;
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+
+ }
+
+ .galerie__title {
+     width: 120px;
+     height: auto;
+ }

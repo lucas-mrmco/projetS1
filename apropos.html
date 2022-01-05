@@ -4,13 +4,16 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Site de FeminSchool">
+    <meta name="description" content="Site de X-Men">
 
     <title>X-Men > A propos </title>
 
     <link rel="icon" href="public/img/logo/logoxmen.png" />
     <link rel="stylesheet" href="src/css/style.css">
+    
     <script defer="" src="https://unpkg.com/alpinejs@3.4.2/dist/cdn.min.js"></script>
+    <script src="https://animejs.com/lib/anime.min.js"></script>
+    
     <script src="src/js/function.js"></script>
   </head>
   <body >
@@ -80,18 +83,64 @@
             <h2 id="h2_autres_projets">Si tu veux en savoir plus 
                 sur le bilan carbone de 
                 tes heros preferes :</h2>
-            <img id="avion_90deg_1" src="public/img/logo/xjetfly.png" alt="">
 
-            <img class="autres_projets" src="public/img/autresprojets/adrien.webp" alt="">
-            <img class="autres_projets" src="public/img/autresprojets/david.webp" alt="">
-            <img class="autres_projets" src="public/img/autresprojets/jalis.webp" alt="">
-            <img class="autres_projets" src="public/img/autresprojets/khadija.webp" alt="">
-            <img class="autres_projets" src="public/img/autresprojets/quentin.webp" alt="">
-            <img class="autres_projets" src="public/img/autresprojets/sasha.webp" alt="">
-            <img class="autres_projets" src="public/img/autresprojets/steven.webp" alt="">
-            <img class="autres_projets" src="public/img/autresprojets/violette.webp" alt="">
+            <img id="avion_contact1" src="public/img/avion_contact.png" alt="">
+            
+            <div class="glisse">
+                <div x-on:mouseover="monterLegende(1);"
+                x-on:mouseleave="descendreLegende(1);"  class="galerie">
+                    <img class="galerie__img" src="public/img/autresprojets/adrien.webp" alt="Couverture Autre monde Malronce">
+                    
+                    <h3 class="galerie__title galerie__title1">Autre héros : Batman</h3>
+                </div>
+                <div x-on:mouseover="monterLegende(2);"
+                x-on:mouseleave="descendreLegende(2);"  class="galerie">
+                     <img class="galerie__img" src="public/img/autresprojets/david.webp" alt="Couverture Autre monde Le coeur de la Terre">
+                    
+                    <h3 class="galerie__title galerie__title2">Autre héros : Hulk</h3>
+                </div>
+                <div x-on:mouseover="monterLegende(3);"
+                x-on:mouseleave="descendreLegende(3);"  class="galerie">
+                    <div class="galerie__encadrement">
+                        <img class="galerie__img" src="public/img/autresprojets/jalis.webp" alt="Couverture Autre monde Entropia">
+                    </div>
+                    <h3 class="galerie__title galerie__title3">Autre héros : Deadpool</h3>
+                </div>
 
-            <img id="avion_90deg_2" src="public/img/logo/xjetfly.png" alt="">
+                <div x-on:mouseover="monterLegende(4);"
+                x-on:mouseleave="descendreLegende(4);"  class="galerie">
+                    <img class="galerie__img" src="public/img/autresprojets/khadija.webp" alt="Couverture Autre monde Oz">
+                   
+                    <h3 class="galerie__title galerie__title4">Autre héros : Green Lantern</h3>
+                </div>
+                <div x-on:mouseover="monterLegende(5);"
+                x-on:mouseleave="descendreLegende(5);"  class="galerie">
+                    <div class="galerie__encadrement">
+                        <img class="galerie__img" src="public/img/autresprojets/quentin.webp" alt="Couverture Autre monde Oz">
+                    </div>
+                    <h3 class="galerie__title galerie__title5">Autre héros : Flash</h3>
+                </div>
+                
+                <div x-on:mouseover="monterLegende(6);"
+                x-on:mouseleave="descendreLegende(6);"  class="galerie">
+                    
+                    <img class="galerie__img" src="public/img/autresprojets/violette.webp" alt="Couverture Autre monde Oz">
+                    
+                    <h3 class="galerie__title galerie__title6">Autre héros : César</h3>
+                </div>
+                <div x-on:mouseover="monterLegende(7);"
+                x-on:mouseleave="descendreLegende(7);"  class="galerie">
+                     <img class="galerie__img" src="public/img/autresprojets/sasha.webp" alt="Couverture Autre monde Oz">
+                    
+                    <h3 class="galerie__title galerie__title7">Autre héros : Ghost Rider</h3>
+                </div>
+                <div x-on:mouseover="monterLegende(8);"
+                x-on:mouseleave="descendreLegende(8);"  class="galerie">
+                    
+                    <img class="galerie__img" src="public/img/autresprojets/steven.webp" alt="Couverture Autre monde Oz">
+                    <h3 class="galerie__title galerie__title8">Autre héros : Black Panther</h3>
+                </div>
+                <img id="avion_contact2" src="public/img/avion_contact.png" alt="">
         </main>
 
    

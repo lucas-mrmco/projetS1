@@ -273,7 +273,16 @@ p em {
   margin-left: -20px;
   width: 80%;
 }
-
+ .avion_contact1 {
+   margin-left: 50px;
+   left: 20px;
+   position: relative;
+ }
+ .avion_contact2 {
+   left: 200px;
+   display: block;
+   margin-top: 100px;
+ }
 .contact {
   background-color: #FFEDA5;
   opacity: 0,5;
@@ -281,34 +290,13 @@ p em {
   margin: 10px;
   padding: 10px;
   z-index: 2;
-  position: absolute;
 }
 
-/* #avion_90deg_1 {
-  transform: rotate(290deg);
-  margin-top: -70px;
-  right: -120px;
-  z-index: 1;
-  position: relative;
-}
-#avion_90deg_2 {
-  transform: rotate(290deg);
-  margin-bottom: 80px;
-  margin-top: 90px;
-  margin-left: -120px;
-  z-index: 2;
-}
-*/
-.autres_projets {
-  width: 130px;
-  height: auto;
-  margin: 15px;
-  margin-left: 30px;
-} 
+
 
 #h2_autres_projets {
   width: 240px;
-  margin-top: 200px;
+  margin-top: 20px;
   text-align: center;
 }
 
@@ -328,5 +316,7 @@ input[type=text], textarea, input[type=email] {
   display: block;
   text-align: center;
   text-transform: inherit;
+  font-weight: inherit;
+  font-style: inherit;
   margin-bottom: 20px;
 }

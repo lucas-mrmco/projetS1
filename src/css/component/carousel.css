@@ -13,8 +13,11 @@
 }
 
 .carrousel9 {
-   grid-column: 2;
-   grid-row: 2;
    width: 100vw;
    padding: 0px;
+   position: relative;
+   z-index: 0;
+}
+.vide {
+    height: 350px;
 }

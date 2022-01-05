@@ -10,22 +10,13 @@
     
   }
 
-  /* .footer_contact{
-    appearance: none;
-    background-color: var(--noir);
-    height: 33px;
-    width: 107px;
-    text-align: center;
-    margin-left: 245px;
-    display: table;
-    padding: 0;
-    font-family: 'OpenSans', sans-serif;
-    z-index: 7;
-    margin-top: -175px;
-    clip-path: path("M0 2L106.5 0L100 46H0V2Z");
-    position: absolute;
+  .footer_contact{
+    display: flex;
+    width: 300px;
+    justify-content: center;
+    
   }
-   */
+    
   .link_contact{
     display: block;
     text-decoration: none;
@@ -35,9 +26,8 @@
     clip-path: path("M0 2L106.5 0L100 46H0V2Z");
     text-align: center;
     width: 90px;
-    margin: 10px;
-    justify-content: space-between;
-    margin-left: 20px;  
+    margin-left: 20px; 
+    margin-right: 20px; 
 
   }
 
